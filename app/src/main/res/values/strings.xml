@@ -10,6 +10,7 @@
         <item>King Henry VIII founded the Church of England so that he could divorce his wife.</item>
         <item>Nils Olav, a penguin, is a Norwegian knight.</item>
         <item>People suffering from Alien Hand Syndrome can\'t control their hand\'s movements.</item>
+        <item>Margaret Sanger established the first birth control clinic in the US.</item>
     </string-array>
 
     <!-- sources for each fact, !!! order is important !!! -->
@@ -21,6 +22,7 @@
         <item>https://en.wikipedia.org/wiki/Henry_VIII_of_England</item> <!-- Henry VIII -->
         <item>https://en.wikipedia.org/wiki/Nils_Olav</item> <!-- Nils Olav -->
         <item>https://en.wikipedia.org/wiki/Alien_hand_syndrome</item> <!-- Alien Hand -->
+        <item>https://en.wikipedia.org/wiki/Margaret_Sanger</item> <!-- Margaret Sanger -->
     </string-array>
 
     <!-- String array for colors, used in MainActivity - showNext -->
