@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">fivefacts</string>
+
+    <!-- fact strings -->
+    <string-array name="factsArray">
+        <item>Alektorophobia is the fear of chickens.</item>
+        <item>Switzerland has four official languages: German, French, Italian and Romansh.</item>
+        <item>Sagrada Familia in Barcelona is the last great cathedral being built.</item>
+        <item>General Antonio Lopez de Santa Anna had a funeral for his amputated leg.</item>
+        <item>King Henry VIII founded the Church of England so that he could divorce his wife.</item>
+        <item>Nils Olav, a penguin, is a Norwegian knight.</item>
+        <item>People suffering from Alien Hand Syndrome can\'t control their hand\'s movements.</item>
+    </string-array>
+
+    <!-- sources for each fact, !!! order is important !!! -->
+    <string-array name="factsSources">
+        <item>http://phobialist.com/</item> <!-- alektorophobia -->
+        <item>https://en.wikipedia.org/wiki/Languages_of_Switzerland</item> <!-- languages of Switzerland -->
+        <item>http://www.sagradafamilia.org/en/history-of-the-temple/</item> <!-- Sagrada Familia -->
+        <item>http://www.history.com/news/history-lists/6-things-you-may-not-know-about-santa-anna</item> <!-- Santa Anna -->
+        <item>https://en.wikipedia.org/wiki/Henry_VIII_of_England</item> <!-- Henry VIII -->
+        <item>https://en.wikipedia.org/wiki/Nils_Olav</item> <!-- Nils Olav -->
+        <item>https://en.wikipedia.org/wiki/Alien_hand_syndrome</item> <!-- Alien Hand -->
+    </string-array>
+
+    <!-- String array for colors, used in MainActivity - showNext -->
+    <string-array name="backgroundArray">
+        <item>#a8f7e9</item>
+        <item>#FAA5B9</item>
+        <item>#FAEA0F</item>
+        <item>#A3FA9B</item>
+        <item>#AFD7FA</item>
+        <item>#FABE98</item>
+        <item>#FA98CB</item>
+        <item>#D098FA</item>
+        <item>#ADFFFF</item>
+        <item>#81F57A</item>
+    </string-array>
+
+</resources>

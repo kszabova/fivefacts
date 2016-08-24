@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#000000</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="text">#000000</color>
+    <color name="defaultBackground">#2E3030</color>
+    <color name="buttonText">#ffffff</color>
+
+    <!-- Background colors for facts -->
+    <!-- Not used at the moment -->
+    <color name="turquoise">#A8F7E9</color>
+    <color name="red">#FAA5B9</color>
+    <color name="yellow">#FAEA0F</color>
+    <color name="green">#A3FA9B</color>
+    <color name="blue">#AFD7FA</color>
+    <color name="peach">#FABE98</color>
+    <color name="pink">#FA98CB</color>
+    <color name="purple">#D098FA</color>
+    <color name="cyan">#ADFFFF</color>
+    <color name="lime">#81F57A</color>
+
+</resources>

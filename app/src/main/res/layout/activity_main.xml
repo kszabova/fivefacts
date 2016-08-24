@@ -1,0 +1,92 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/defaultBackground">
+
+    <!-- displays facts when clicked -->
+    <Button
+        android:id="@+id/showme_button"
+        style="@style/AppButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Show me"
+        android:layout_centerInParent="true"
+        android:onClick="showFacts"/>
+
+    <!-- a single fact, its source and button with the next fact -->
+    <RelativeLayout
+        android:id="@+id/fivefacts_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone">
+
+        <TextView
+            android:id="@+id/fact_textview"
+            style="@style/FactTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:id="@+id/source_textview"
+            style="@style/SourceTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:layout_below="@id/fact_textview"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            style="@style/AppButton"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="16dp"
+
+            android:text="Next"
+            android:onClick="showNext"/>
+
+    </RelativeLayout>
+
+    <!-- button 'Thank you' shows the home page, 'Show more' displays more facts -->
+    <RelativeLayout
+        android:id="@+id/finished_facts"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/thankyou_button"
+                style="@style/AppButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Thank you!"
+                android:layout_gravity="center"
+                android:onClick="closeAll"/>
+
+            <View
+                android:layout_width="120dp"
+                android:layout_height="1dp"
+                android:layout_gravity="center"
+                android:background="#ffffff"/>
+
+            <Button
+                android:id="@+id/showmore_button"
+                style="@style/AppButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Show more"
+                android:layout_gravity="center"
+                android:onClick="showFacts"/>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</RelativeLayout>
+
